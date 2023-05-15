@@ -1,0 +1,17 @@
+.button {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: gray ;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0;
+    transition: background-color, transform 0.5s ease;
+}
+
+.button:hover {
+    transform: scale(1.08);
+    background-color: #f25a70;
+    color: #000;
+}
