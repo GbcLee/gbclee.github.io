@@ -1,20 +1,19 @@
-h1 {
+h2 {
     position: absolute;
-    width: 440px;
-    height: 40px;
-    left: 181px;
-    top: 238px;
+    width: 540px;
+    height: 30px;
+    left: 263px;
+    top: 306px;
 
-/* Headline */
+/* Title */
     font-family: 'Press Start 2P';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
 /* identical to box height */
 
-/* color-first */
-    color: #F25A70;
+/* color-third */
+    color: #FFF;
     text-shadow: 4px 4px 0px #000;
 }
-
