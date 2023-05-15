@@ -1,0 +1,39 @@
+h1 {
+    position: absolute;
+    width: 440px;
+    height: 40px;
+    left: 181px;
+    top: 238px;
+
+/* Headline */
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+/* identical to box height */
+
+/* color-first */
+    color: #F25A70;
+    text-shadow: 4px 4px 0px #000;
+}
+
+h2 {
+    position: absolute;
+    width: 540px;
+    height: 30px;
+    left: 263px;
+    top: 306px;
+
+/* Title */
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+/* identical to box height */
+
+/* color-third */
+    color: #FFF;
+    text-shadow: 4px 4px 0px #000;
+}
