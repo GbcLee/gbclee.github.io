@@ -18,9 +18,12 @@
     <link rel="stylesheet" href="CSS/Components/main-title.css">
     <link rel="stylesheet" href="CSS/Components/subtitle.css">
     <link rel="stylesheet" href="CSS/Components/box.css">
-    <link rel="stylesheet" href="CSS/Components/section.css">
+    <link rel="stylesheet" href="CSS/Components/main-section.css">
+    <link rel="stylesheet" href="CSS/Components/card-projects.css">
     <link rel="stylesheet" href="CSS/Components/skill-tec.css">
+    <link rel="stylesheet" href="CSS/Components/wrapper-skill.css">
     <link rel="stylesheet" href="CSS/Components/progress-bar.css">
+    <link rel="stylesheet" href="CSS/Components/wrapper-card.css">
 </head>
 <body>
     <!-- 'header>img>nav>a*5' -->
@@ -49,15 +52,15 @@
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="main-section">
             <h2 class="main-title -second">Skills</h2>
-
-            <article class="skill-tec"><!-- Description List -->
-                    <img class="icon" src="Img/ico_html5.png" alt="Logo Html5 PixelArt">
-                    <div class="right">
-                        <h3 class="title">HTML</h3>
-                        <progress class="progress-bar" max="100" value="70">70%</progress>
-                    </div>
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class="icon" src="Img/ico_html5.png" alt="Logo Html5 PixelArt">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
             </article>
             <article class="skill-tec">
                 <img class="icon" src="Img/ico_nodejs.png" alt="Logo NodeJs PixelArt">
@@ -108,6 +111,22 @@
                     <progress class="progress-bar" max="100" value="70">70%</progress>
                 </div>
             </article>
+        </div>
+    </section>
+
+    <section class="main-section -second">
+        <h2 class="main-title -second">Projetos</h2>
+        <div class="wrapper-card">
+            <figure class="card-projects">
+                <img class="logo" src="Img/logo-firedlabs.png" alt="Logo FiredLabs">
+            </figure>
+            <figure class="card-projects -blue">
+                <img class="logo" src="Img/logo-collabcode.png" alt="Logo CollabCode">
+            </figure>
+            <figure class="card-projects">
+                <img class="logo" src="Img/minha-foto.jpg" alt="Minha Foto">
+            </figure>
+        </div>
     </section>
 </body>
 </html> 
