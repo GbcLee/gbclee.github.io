@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7c5e99;
     width: 280px;
     height: 280px;
-    box-shadow: 10px 10px 0px #fff;
+    background-color: #fff;
+    box-shadow: 10px 10px 0px #0a66c2;
 }
 
-.card-projects.-blue {
-    background-color: #4c5b84;
+.card-projects.-tt {
+    box-shadow: 10px 10px 0px #1da1f2;
 }
