@@ -10,7 +10,7 @@
     transition: background-color, transform 0.5s ease;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
     background-color: #f25a70;
     color: #000;
