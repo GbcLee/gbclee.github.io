@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="CSS/Components/wrapper-skill.css">
     <link rel="stylesheet" href="CSS/Components/progress-bar.css">
     <link rel="stylesheet" href="CSS/Components/wrapper-card.css">
+    <link rel="stylesheet" href="CSS/Components/main-description.css">
+    <link rel="stylesheet" href="CSS/Components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/Components/node-card.css">
+    <link rel="stylesheet" href="CSS/Components/main-carousel.css">
+    <link rel="stylesheet" href="CSS/Components/main-footer.css">
 </head>
 <body>
     <!-- 'header>img>nav>a*5' -->
@@ -31,9 +36,9 @@
         <img src="assets/img/minha-logo.jpg" alt="Avatar">
         <nav>
             <!-- 'a[lang=en]{skills}' -->
+            <a class="main-action" href="">Sobre</a>
             <a class="main-action" href="" lang="en">Skills</a>
             <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
             <a class="main-action" href="">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
@@ -63,16 +68,16 @@
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="Img/ico_nodejs.png" alt="Logo NodeJs PixelArt">
+                <img class="icon" src="Img/ico_css3.png" alt="Logo Css3 PixelArt">
                 <div class="right">
-                    <h3 class="title">NodeJs</h3>
+                    <h3 class="title">CSS</h3>
                     <progress class="progress-bar" max="100" value="70">70%</progress>
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="Img/ico_css3.png" alt="Logo Css3 PixelArt">
+                <img class="icon" src="Img/ico_nodejs.png" alt="Logo NodeJs PixelArt">
                 <div class="right">
-                    <h3 class="title">CSS</h3>
+                    <h3 class="title">NodeJs</h3>
                     <progress class="progress-bar" max="100" value="70">70%</progress>
                 </div>
             </article>
@@ -114,17 +119,17 @@
         </div>
     </section>
 
-    <section class="main-section -second">
-        <h2 class="main-title -second">Projetos</h2>
+    <section class="main-section -contatos">
+        <h2 class="main-title -second">Contatos</h2>
         <div class="wrapper-card">
-            <a href="https://gbclee.github.io/index.html">
+            <a href="https://www.linkedin.com/in/gbc-lee" target="_blank">
             <figure class="card-projects">
-                <img class="logo" src="Img/logo-firedlabs.png" alt="Logo FiredLabs">
+                <img class="logo" src="Img/linkedin-icon.png" alt="Logo linkedin">
             </figure>
             </a>
-            <a href="https://gbclee.github.io/index.html">
-            <figure class="card-projects -blue">
-                <img class="logo" src="Img/logo-collabcode.png" alt="Logo CollabCode">
+            <a href="https://twitter.com/gbc_lee" target="_blank">
+            <figure class="card-projects -tt">
+                <img class="logo" src="Img/twitter-logo.png" alt="Logo Twitter">
             </figure>
             </a>
             <a href="https://gbclee.github.io/index.html" target="_blank">
@@ -134,5 +139,84 @@
             </a>
         </div>
     </section>
+
+    <section class="main-section -sobre">
+        <h2 class="main-title -second">Sobre</h2>
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Voltar</span></button>
+
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="Img/logo-locaweb.png" alt="Logo da local-web" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="Img/logo-caelum.png" alt="Logo da caelum" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="Img/logo-getninjas.png" alt="Logo da getninjas" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="Img/logo-caelum.png" alt="Logo da caelum" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="Img/logo-impulso.png" alt="Logo da impulso" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="Img/logo-collabcode1.png" alt="Logo da CollabCode" >
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+            <button class="button-arrow -right"><span class="content">Avançar</span></button>
+        </section>
+        <p class="main-description">
+            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode,
+            Marco já trabalhou nas mais diversas áreas. Foi palhaço,
+            entrou na área de TI como desenvolvedor HMI/PLC
+            e gosta de ir descobrindo seu caminho conforme o percorre.
+            Marco também tem uma crescente presença em comunidades de UX e Front-end,
+            trabalhando para uní-las, palestra em empresas e eventos como o WebBR,
+            escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium,
+            quando não está jogando Airsoft ou trocando ideias com amigos.
+         </p>
+    </section>
+
+    <footer class="main-footer">
+        <a class="action" href="https://twitter.com/gbc_lee" target="_blank">
+            <img src="Img/icon-twitter.png" alt="icon do Twitter">
+        </a>
+        <a class="action" href="" target="_blank">
+            <img src="Img/icon-youtube.png" alt="icon do Youtube">
+        </a>
+        <a class="action" href="" target="-blank">
+            <img src="Img/icon-discord.png" alt="icon do Discord">
+        </a>
+    </footer>
+
+    <script src="JS/Components/main-carousel.js"></script>
 </body>
 </html> 
